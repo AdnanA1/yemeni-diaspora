@@ -71,7 +71,7 @@ const ChannelIdPage = async ({
             query={{
               channelId: channel.id,
               serverId: channel.serverId,
-            }}
+            }}   
           />
         </>
       )}
@@ -85,4 +85,4 @@ const ChannelIdPage = async ({
   );   
 }
 
-export default ChannelIdPage;     
+export default ChannelIdPage;       
